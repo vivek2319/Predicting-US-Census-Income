@@ -79,46 +79,45 @@ plt.hist(dff['Age']);
 dff['Income'] = dff['Income'].apply(lambda x: 1 if x==' >50K.' else 0)
 
 dff.replace(' ?', np.nan, inplace=True)
-
+#The output for the this line of code can be viewed at https://tinyurl.com/y8ddex6h
 ###################################  WORKCLASS
 dff.fillna(' 0', inplace=True)
 
 sn.factorplot(x="Workclass", y="Income", data=dff, kind="bar", size = 6, 
 palette = "muted")
 plt.xticks(rotation=45);
-
 dff['Workclass'].value_counts()
-
+#The output for this line of code can be viewwed at https://tinyurl.com/y9z647j8
 ########################################### EDUCATION
 sn.factorplot(x="Education",y="Income",data=dff,kind="bar", size = 6, 
 palette = "muted")
 plt.xticks(rotation=60);
-
+#The output for this line of code can be viewed at https://tinyurl.com/y8wcleoo
 #########################  EDUCATION NO
 sn.factorplot(x="Education num",y="Income",data=dff,kind="bar", size = 6, 
 palette = "muted")
 plt.xticks(rotation=60);
-
+#The output for this line of code can be viewed at https://tinyurl.com/y8zatgbb
 ################################ MARITAL status
 sn.factorplot(x="Marital Status",y="Income",data=dff,kind="bar", size = 6, 
 palette = "muted")
 plt.xticks(rotation=60);
-
+#The output for this line of code can be viewed at https://tinyurl.com/ybpggx5u
 ################################ OCCUPATION
 sn.factorplot(x="Occupation",y="Income",data=dff,kind="bar", size = 8, 
 palette = "muted")
 plt.xticks(rotation=60);
-
+#The output for this line of code can be viewed at https://tinyurl.com/yab83lf3
 ################################ Relationship
 sn.factorplot(x="Relationship",y="Income",data=dff,kind="bar", size = 6, 
 palette = "muted")
 plt.xticks(rotation=60);
-
+#The output for this line of code can be viewed at https://tinyurl.com/y9trdq5q
 ################################ RACE
 sn.factorplot(x="Race",y="Income",data=dff,kind="bar", size = 6, 
 palette = "muted")
 plt.xticks(rotation=45);
-
+#the output for this line of code can be viewed at : https://tinyurl.com/y9hfqlkr
 ################################ SEX
 sn.factorplot(x="Sex",y="Income",data=dff,kind="bar", size = 4, 
 palette = "muted");
@@ -127,7 +126,7 @@ palette = "muted");
 sn.factorplot(x="Native country",y="Income",data=dff,kind="bar", size = 10, 
 palette = "muted")
 plt.xticks(rotation=80);
-
+#Output for this line of code can be viewewd at : https://tinyurl.com/yaqwzr9d
 
 
 
@@ -178,7 +177,7 @@ print(classification_report(y_test,tree_predict))
 LDA = accuracy_score(y_test, tree_predict)
 print("The Accuracy for LDA is {}".format(LDA))
 
-
+#the output for this line of code can be viewed at : https://tinyurl.com/y787bf8f
 
 ########################################LINEAR REGRESSION#######################
 
@@ -202,7 +201,7 @@ print(classification_report(y_test,ylm))
 
 LA = accuracy_score(y_test, ylm)
 print("The Accuracy for Linear Regression is {}".format(LA))
-
+#The output for this line of code can be viewed at : https://tinyurl.com/yajlvtdc
  
 ############################################## KNN ###############
 
@@ -221,7 +220,7 @@ print(confusion_matrix(y_test,knnpre))
 print(classification_report(y_test,knnpre))
 KKNA = accuracy_score(y_test, knnpre)
 print("The Accuracy for KNN is {}".format(KKNA))
-
+#The output for this line of code can be found at : https://tinyurl.com/y825rn7v
  
 ################################ Decision tree ###########################################
 
@@ -238,7 +237,7 @@ print(confusion_matrix(y_test,tree_predict))
 print(classification_report(y_test,tree_predict))
 DTA = accuracy_score(y_test, tree_predict)
 print("The Accuracy for Decision Tree Model is {}".format(DTA))
-
+#The accuracy for this model can be viewed at : https://tinyurl.com/y9uzgtlc
  
 ################################ SVM #####################################
 
@@ -254,7 +253,7 @@ print(classification_report(y_test,svc_predict))
 SVMA = accuracy_score(y_test, svc_predict)
 print("The Accuracy for SVM is {}".format(SVMA))
 
- 
+#The output for this line of code can be viewed at : https://tinyurl.com/ya5msfl2 
 
 ####################### NAIVE  #####################################
 
@@ -275,7 +274,7 @@ print(confusion_matrix(y_test,naive_pre))
 print(classification_report(y_test,naive_pre))
 NBA = accuracy_score(y_test, naive_pre)
 print("The Accuracy for NB is {}".format(NBA))
-
+#The output for this line of code can be found at : https://tinyurl.com/yatb56wa
  
 ####################### neural_network  #####################################
 
@@ -288,7 +287,7 @@ print(confusion_matrix(y_test,NNpre))
 print(classification_report(y_test,NNpre))
 NNA = accuracy_score(y_test, NNpre)
 print("The Accuracy for Neural Network is {}".format(NNA))
-
+#The output for this line of code can be viewed at : https://tinyurl.com/yd3fzy4h
  
 ########################### KMEANS ###################################
 
@@ -303,7 +302,7 @@ print(classification_report(y_test,labelspre))
 KmeanA = accuracy_score(y_test, labelspre)
 print("The Accuracy for kmeans is {}".format(KmeanA))
  
-
+#The output for this line of code can be viewed at : https://tinyurl.com/yat7kgf6
 
 
 #######################XGB experiementing with learning rate
@@ -339,9 +338,9 @@ pyplot.xlabel('learning_rate')
 pyplot.ylabel('Log Loss')
 pyplot.savefig('learning_rate.png')
 
- 
+#The output for this of code can be found at  https://tinyurl.com/y7cmzkox
 
-
+#Learning rate graph can be viewed at : https://tinyurl.com/ycg4eqeh
 
 ############## This xgboost code is where I experiment which learning rate and what number of estimators are BEST
 
@@ -377,8 +376,8 @@ pyplot.xlabel('n_estimators')
 pyplot.ylabel('Log Loss')
 pyplot.savefig('n_estimators_vs_learning_rate.png')
 
-
-
+#The output for this line of code can be found at : https://tinyurl.com/y9js976p
+#Learning rate graph can be found at : https://tinyurl.com/ycttuck3
 ############# XGboost - Picking the best values for learning rate and estimators  
 
 import xgboost as xgb
@@ -400,6 +399,6 @@ print(model.get_params())
 
 XGBA = accuracy_score(y_test, predictions)
 print("The Accuracy  is {}".format(XGBA))
+#The accuracy can be viewed at : https://tinyurl.com/y8l65kcv
 
-
-As you can see the max accuracy is achieved with XgBoost. 
+#As you can see the max accuracy is achieved with XgBoost. 
