@@ -35,4 +35,4 @@ we removed the Na’s. The fnlwgt was removed, since it had no effect on target 
  • [XgBoost](https://en.wikipedia.org/wiki/Xgboost)
  
  ## Results 
- ![Results](https://www.dropbox.com/s/aw8e819uop6ly92/Picture1.png?dl=0)
+ ![Results](https://www.dropbox.com/s/aw8e819uop6ly92/Picture1.png?dl=0 "Image")
