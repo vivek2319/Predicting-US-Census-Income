@@ -36,3 +36,5 @@ we removed the Na’s. The fnlwgt was removed, since it had no effect on target 
  
  ## Results 
  ![Results](https://user-images.githubusercontent.com/21111859/33803528-9ae0bc82-dd60-11e7-9563-4689561a37b5.png)
+ 
+ XgBoost gave us the best accuracy. 
