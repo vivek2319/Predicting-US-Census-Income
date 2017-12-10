@@ -10,10 +10,27 @@ Note that the dataset is made up of categorical and continuous features. It also
 
 The training data doesn’t have column names, so specifically adding it. Both datasets i.e. training, and testing are combined. After cleaning the data, we were left with 32561 rows with 15 columns. The dataset had NA’s in work class & occupation,
 we removed the Na’s. The fnlwgt was removed, since it had no effect on target variable.
-•	Here, there is no column name in given data, so we need to define column name first
-•	Row in test data has many unknown variables so skipping the row. 
-•	For better pre-processing combining the data & divided it into 80-20.
+ •	Here, there is no column name in given data, so we need to define column name first
+ •	Row in test data has many unknown variables so skipping the row. 
+ •	For better pre-processing combining the data & divided it into 80-20.
 
 ## Get Dataset from 
-•	[Kaggle](https://www.kaggle.com/johnolafenwa/us-census-data/data) 
-•	[UCI](https://archive.ics.uci.edu/ml/datasets/US+Census+Data+(1990))
+ •	[Kaggle](https://www.kaggle.com/johnolafenwa/us-census-data/data) 
+ •	[UCI](https://archive.ics.uci.edu/ml/datasets/US+Census+Data+(1990))
+
+## IDE - [Jupyter Notebook](http://jupyter.org/)
+
+## Algorithms - 
+ • [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression)
+ • [Linear Discriminant Analysis](https://en.wikipedia.org/wiki/Linear_discriminant_analysis)
+ • [Logistic Regression](https://en.wikipedia.org/wiki/Logistic_regression)
+ • [K Nearest Neigbor](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+ • [Decision Tree](https://en.wikipedia.org/wiki/Decision_tree_learning)
+ • [Support Vector Machine](https://en.wikipedia.org/wiki/Support_vector_machine)
+ • [Naive Bayes](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
+ • [K-Means](https://en.wikipedia.org/wiki/K-means_clustering)
+ • [Neural Network](https://en.wikipedia.org/wiki/Artificial_neural_network)
+ • [XgBoost](https://en.wikipedia.org/wiki/Xgboost)
+ 
+ ## Results 
+ [Results](https://www.dropbox.com/s/aw8e819uop6ly92/Picture1.png?dl=0)
