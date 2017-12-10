@@ -15,4 +15,5 @@ we removed the Na’s. The fnlwgt was removed, since it had no effect on target 
 •	For better pre-processing combining the data & divided it into 80-20.
 
 ## Get Dataset from 
-•	[Kaggle](https://www.kaggle.com/johnolafenwa/us-census-data/data) •	[UCI](https://archive.ics.uci.edu/ml/datasets/US+Census+Data+(1990)
+•	[Kaggle](https://www.kaggle.com/johnolafenwa/us-census-data/data) 
+•	[UCI](https://archive.ics.uci.edu/ml/datasets/US+Census+Data+(1990))
