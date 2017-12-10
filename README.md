@@ -14,6 +14,7 @@ we removed the Na’s. The fnlwgt was removed, since it had no effect on target 
 -	Here, there is no column name in given data, so we need to define column name first
 -	Row in test data has many unknown variables so skipping the row. 
 -	For better pre-processing combining the data & divided it into 80-20.
+- For more information please visit [here](https://www.census.gov/)
 
 ## Get Dataset from 
  •	[Kaggle](https://www.kaggle.com/johnolafenwa/us-census-data/data) 
