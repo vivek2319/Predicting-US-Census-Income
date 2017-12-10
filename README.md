@@ -18,7 +18,8 @@ we removed the Na’s. The fnlwgt was removed, since it had no effect on target 
  •	[Kaggle](https://www.kaggle.com/johnolafenwa/us-census-data/data) 
  •	[UCI](https://archive.ics.uci.edu/ml/datasets/US+Census+Data+(1990))
 
-## IDE - [Jupyter Notebook](http://jupyter.org/)
+## IDE - 
+  [Jupyter Notebook](http://jupyter.org/)
 
 ## Algorithms - 
  • [Linear Regression](https://en.wikipedia.org/wiki/Linear_regression)
